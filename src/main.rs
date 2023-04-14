@@ -51,7 +51,7 @@ fn main() {
 
             let line = reader.lines().next().unwrap().unwrap();
             
-            println!("Previous Game Found, Generating Player: {}", line);
+            println!("Previous Game Found, Generating Player Data: {}", line);
             let val: i32 = line.parse().unwrap();
             p1.balance = val;
         }
